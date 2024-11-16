@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 48px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: linear-gradient(to top, #040404 0%, #6c7076 100%);
+	background-attachment: fixed;
+}
+
+p {
+	padding: 16px 0;
+}
+
+.calendar-container {
+	overflow: hidden;
+	width: 300px;
+	text-align: center;
+	background-color: rgb(229, 229, 229);
+	border-radius: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.month-name {
+	background-color: rgb(174, 23, 0);
+	color: lightgray;
+}
+
+.day-name {
+	font-size: 120px;
+}
+
+.year-name {
+	font-size: 24px;
+	padding: 0 0 10px 0;
+	color: rgba(0, 0, 0, 0.612);
+}
