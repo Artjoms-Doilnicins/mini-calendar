@@ -1,5 +1,7 @@
 # Mini Calendar
 
+[https://artjoms-doilnicins.github.io/mini-calendar/](https://artjoms-doilnicins.github.io/mini-calendar/)
+
 A simple calendar widget that displays the current date, including the month, day, and year, in a clean and minimalist design.
 
 ## Features
